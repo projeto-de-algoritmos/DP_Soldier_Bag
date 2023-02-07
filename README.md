@@ -1,44 +1,42 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Soldier Bag
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 32<br>
+**Conteúdo da Disciplina**: D&C<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0149687 |  Daniel Porto de Souza |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Um soldado, quando convocado à batalha, está responsável por montar e manter a sua mochil de utilitários. Dessa forma, a plataforma utiliza o algorítimo knapsack 0-1 para ajudar nessa montagem conforme a capacidade da machila do soldado.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Tela inicial](public/screenshots/img01.png)
+![Categorias](public/screenshots/img02.png)
+![Tela final](public/screenshots/img03.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
+### Pré-requisitos:
+- Git
+- npm
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para a utilização, basta clonar o repositório com:
+> $ git clone https://github.com/projeto-de-algoritmos/DP_Soldier_Bag.git
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Feito a clone, dentro do diretório do repositório, basta executar os comandos:
+
+> $ npm install
+
+> $ npm start
+
+Uma aba no seu navegador padrão deverá abrir. Casos não abra, basta acessar o localhost:3000
+
+## Uso 
+Para utilizar basta filtrar os itens conforme a sua categoria, digitar o peso máximo e clicar em confirmar.
+
 
 
 
